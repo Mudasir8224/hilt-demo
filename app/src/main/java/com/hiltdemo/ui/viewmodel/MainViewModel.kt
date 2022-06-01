@@ -1,6 +1,8 @@
 package com.hiltdemo
 
 import androidx.lifecycle.*
+import com.hiltdemo.data.model.User
+import com.hiltdemo.data.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

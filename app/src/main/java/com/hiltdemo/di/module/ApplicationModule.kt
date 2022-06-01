@@ -1,6 +1,9 @@
 package com.hiltdemo
 
 import com.hiltdemo.BuildConfig.BASE_URL
+import com.hiltdemo.data.api.ApiHelper
+import com.hiltdemo.data.api.ApiHelperImpl
+import com.hiltdemo.data.api.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
