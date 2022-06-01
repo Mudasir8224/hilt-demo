@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.data.model
 
 import com.squareup.moshi.Json
 

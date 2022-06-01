@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.hiltdemo.R
 import com.hiltdemo.data.model.User
 
 class MainAdapter(

@@ -1,5 +1,6 @@
-package com.hiltdemo
+package com.hiltdemo.di.module
 
+import com.hiltdemo.BuildConfig
 import com.hiltdemo.BuildConfig.BASE_URL
 import com.hiltdemo.data.api.ApiHelper
 import com.hiltdemo.data.api.ApiHelperImpl

@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.util
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?){
     companion object {

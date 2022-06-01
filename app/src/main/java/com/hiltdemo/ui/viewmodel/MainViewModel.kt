@@ -1,6 +1,8 @@
-package com.hiltdemo
+package com.hiltdemo.ui.viewmodel
 
 import androidx.lifecycle.*
+import com.hiltdemo.util.NetworkHelper
+import com.hiltdemo.util.Resource
 import com.hiltdemo.data.model.User
 import com.hiltdemo.data.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

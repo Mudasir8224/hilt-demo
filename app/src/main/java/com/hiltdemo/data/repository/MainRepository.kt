@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.data.repository
 
 import com.hiltdemo.data.api.ApiHelper
 import javax.inject.Inject

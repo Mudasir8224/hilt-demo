@@ -1,5 +1,6 @@
-package com.hiltdemo
+package com.hiltdemo.data.api
 
+import com.hiltdemo.data.model.User
 import retrofit2.Response
 import retrofit2.http.GET
 

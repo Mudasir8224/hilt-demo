@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.util
 
 enum class Status {
     SUCCESS,

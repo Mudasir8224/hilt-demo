@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.util
 
 import android.content.Context
 import android.net.ConnectivityManager

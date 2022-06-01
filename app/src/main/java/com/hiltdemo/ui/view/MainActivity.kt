@@ -1,4 +1,4 @@
-package com.hiltdemo
+package com.hiltdemo.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,9 +10,11 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.hiltdemo.R
 import com.hiltdemo.data.model.User
 import com.hiltdemo.ui.adapter.MainAdapter
 import com.hiltdemo.ui.viewmodel.MainViewModel
+import com.hiltdemo.util.Status
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
