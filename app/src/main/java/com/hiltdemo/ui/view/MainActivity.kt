@@ -16,11 +16,12 @@ import com.hiltdemo.ui.adapter.MainAdapter
 import com.hiltdemo.ui.viewmodel.MainViewModel
 import com.hiltdemo.util.Status
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private val mainViewModel : MainViewModel by viewModels()
-    private lateinit var adapter: MainAdapter
+    @Inject lateinit var adapter: MainAdapter
     private lateinit var recyclerView: RecyclerView
     private lateinit var progressBar: ProgressBar
 
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun setupUI() {
         recyclerView.layoutManager = LinearLayoutManager(this)
-        adapter = MainAdapter(arrayListOf())
+       // adapter = MainAdapter(arrayListOf())
         recyclerView.addItemDecoration(
             DividerItemDecoration(
                 recyclerView.context,

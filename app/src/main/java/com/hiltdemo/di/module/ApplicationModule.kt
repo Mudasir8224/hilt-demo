@@ -5,6 +5,7 @@ import com.hiltdemo.BuildConfig.BASE_URL
 import com.hiltdemo.data.api.ApiHelper
 import com.hiltdemo.data.api.ApiHelperImpl
 import com.hiltdemo.data.api.ApiService
+import com.hiltdemo.ui.adapter.MainAdapter
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -51,4 +52,8 @@ class ApplicationModule {
     @Provides
     @Singleton
     fun provideApiHelper(apiHelper: ApiHelperImpl): ApiHelper = apiHelper
+
+    @Provides
+    @Singleton
+    fun provideAdapter():MainAdapter = MainAdapter(arrayListOf())
 }

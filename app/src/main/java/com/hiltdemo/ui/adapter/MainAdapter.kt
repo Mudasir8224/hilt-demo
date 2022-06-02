@@ -9,8 +9,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.hiltdemo.R
 import com.hiltdemo.data.model.User
+import dagger.hilt.android.scopes.ActivityScoped
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class MainAdapter(
+@ActivityScoped
+class MainAdapter @Inject constructor(
     private val users: ArrayList<User>
 ) : RecyclerView.Adapter<MainAdapter.DataViewHolder>() {
 
